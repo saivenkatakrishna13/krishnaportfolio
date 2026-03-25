@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 import Carousel from '../components/common/Carousel'
 import Particles from '../components/common/Particles'
-import algoTutorImg from '../assets/certi/AlgoTutorTraining.jpeg';
+import algoTutorImg from '../assets/certi/nlp.jpeg';
 import cloudComputingImg from '../assets/certi/Cloud Computing (1)_page-0001.jpg';
 import eCertificateImg from '../assets/certi/eCertificate_page-0001.jpg';
 
@@ -12,11 +12,11 @@ const Certificates = () => {
   const certificateCards = [
     {
       id: 1,
-      title: 'AlgoTutor Mastering Data Structures and Algorithms',
-      description: 'Certification for completing the Mastering Data Structures and Algorithms course by AlgoTutor.',
+      title: 'Mastering Artificial Intelligence and Natural Language Processing',
+      description: 'Certification for completing a comprehensive course in Artificial Intelligence and Natural Language Processing, covering core AI concepts, machine learning techniques, and NLP applications.',
       label: 'AlgoTutor',
       image: algoTutorImg,
-      sourceUrl: 'https://drive.google.com/file/d/1sAdYUWAXAN-9MelmE9dLtpAKS3nAgiO5/view?usp=sharing'
+      sourceUrl: 'https://drive.google.com/file/d/1EI2c0D2RBY-3PPGhTKKcaMoxSRNaY8BL/view?usp=sharing'
     },
     {
       id: 2,
@@ -24,15 +24,15 @@ const Certificates = () => {
       description: 'NPTEL certification for successfully completing the Cloud Computing course.',
       label: 'NPTEL',
       image: cloudComputingImg,
-      sourceUrl: 'https://drive.google.com/file/d/1zjfdmg1HlAJXqTt5DdHqHYA8C-EZnEo7/view?usp=sharing'
+      sourceUrl: 'https://drive.google.com/file/d/1sAdYUWAXAN-9MelmE9dLtpAKS3nAgiO5/view?usp=sharing'
     },
     {
       id: 3,
-      title: 'eCertificate - Programming, Data Structures and Algorithms',
-      description: 'eCertificate for Programming, Data Structures and Algorithms using Python.',
-      label: 'NPTEL',
+      title: 'Oracle Data Platform 2025 Certified Foundations Associate',
+      description: 'Certification for successfully completing the Oracle Data Platform 2025 Foundations course.',
+      label: 'Oracle',
       image: eCertificateImg,
-      sourceUrl: 'https://drive.google.com/file/d/1EI2c0D2RBY-3PPGhTKKcaMoxSRNaY8BL/view?usp=sharing'
+      sourceUrl: 'https://drive.google.com/file/d/1zjfdmg1HlAJXqTt5DdHqHYA8C-EZnEo7/view?usp=sharing'
     }
   ]
 
